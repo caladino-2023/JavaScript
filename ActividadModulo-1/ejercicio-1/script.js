@@ -1,6 +1,10 @@
 "use strict"
 
 // 1. Realizar el algoritmo que convierta litros en centilitros, decilitros, galones y onzas.
+// 1 litro = 1000 centilitros 1 litro = 10 decilitros 1 litro ≈ 0.264172 galones 1 litro ≈ 33.814 onzas líquidas.
+
+let respuesta;
+let mensaje="";
 function convert() {
     const liters = parseFloat(document.getElementById('litersInput').value);
   

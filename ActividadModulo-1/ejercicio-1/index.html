@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+  <meta charset="UTF-8">
+  <title>Liters Conversion</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Sesion 2</h1>
-    
-    <script src="./script.js"></script>
+  <div class="container">
+    <h1>Liters Conversion</h1>
+    <input type="number" id="litersInput" placeholder="Enter Liters">
+    <button onclick="convert()">Convert</button>
+    <div id="results" class="hidden">
+      <p id="centiliters"></p>
+      <p id="deciliters"></p>
+      <p id="gallons"></p>
+      <p id="ounces"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

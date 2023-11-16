@@ -27,8 +27,10 @@ function anchoPagina(){
     }
 }
 
+anchoPagina();
 
-    function iniciarSesion(){
+
+function iniciarSesion(){
         
         if (window.innerWidth > 850){
             formulario_register.style.display = "none";
@@ -62,3 +64,4 @@ function anchoPagina(){
             caja_trasera_login.style.opacity = "1";
         }
 }
+console.log transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);

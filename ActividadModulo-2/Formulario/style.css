@@ -33,7 +33,6 @@ main{
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(0, 128, 255, 0.5);
 
@@ -47,7 +46,7 @@ main{
 
 
 .caja__trasera div p,
-.caja__trasera button{
+.caja__trasera div button{
     margin-top: 30px;
 }
 
@@ -64,8 +63,8 @@ main{
 .caja__trasera button{
     padding: 10px 40px;
     border: 2px solid #fff;
-    font-size: 14px;
     background: transparent;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     color: white;
@@ -96,7 +95,7 @@ main{
 .contenedor__login-register form{
     width: 100%;
     padding: 80px 20px;
-    background: white;
+    background: #fff;
     position: absolute;
     border-radius: 20px;
 }
@@ -124,14 +123,10 @@ main{
     border: none;
     font-size: 14px;
     background: #46A2FD;
-    font-weight: 600;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
     outline: none;
 }
-
-
-
 
 .formulario__login{
     opacity: 1;
